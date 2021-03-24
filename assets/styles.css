@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.question1 {
+  border: radius 20px;
+  font-weight: 900;
+  font-size: x-large;
+  text-align: center;
+}
+
+.answer1 {
+  display: grid;
+  gap: 50px;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100vw;
+  max-width: 80%;
+}
+
+.btn {
+  background-color: rgb(20, 40, 220);
+}
+
+.container2 {
+  text-align: center;
+  justify-content: center;
+}
