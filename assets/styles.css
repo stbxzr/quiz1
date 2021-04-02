@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 254, 254);
+  background-color: rgb(80, 80, 80);
   padding: 0%;
   margin: 0%;
   display: flex;
@@ -7,31 +7,44 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-}
-.question1 {
-  border: radius 20px;
-  font-weight: 900;
-  font-size: x-large;
-  text-align: center;
+  flex-direction: column;
 }
 
-.answer1 {
-  display: grid;
-  gap: 50px;
+#questionWordId {
+  color: rgb(255, 0, 0);
+  font-size: xx-large;
+  text-decoration-line: underline;
 }
+
+#theQuestionId {
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+}
+
 .container {
-  background-color: rgb(149, 98, 161);
+  background-color: rgb(51, 44, 145);
   border-radius: 10px;
   padding: 20px;
   width: 100vw;
-  max-width: 80%;
-}
+  max-width: 50%;
 
-.btn {
-  background-color: rgb(252, 252, 252);
-}
-
-.container2 {
+  font-weight: bolder;
+  font-size: xx-large;
   text-align: center;
-  justify-content: center;
+}
+
+.Q1 {
+  font-size: 75%;
+  background-color: #1d920e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
 }
