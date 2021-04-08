@@ -8,12 +8,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(./IMG_0157.JPG);
+  background-repeat: repeat-x;
 }
 
 #questionWordId {
-  color: rgb(255, 0, 0);
+  color: rgb(237, 38, 38);
   font-size: xx-large;
   text-decoration-line: underline;
+  
 }
 
 #theQuestionId {
@@ -21,21 +24,25 @@ body {
   font-size: 120%;
 }
 
-.container {
-  background-color: rgb(51, 44, 145);
+#containerQ {
+  background-color: rgb(60, 50, 191);
   border-radius: 10px;
   padding: 20px;
   width: 100vw;
   max-width: 50%;
+  border-radius: 75px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 5px;
 
   font-weight: bolder;
   font-size: xx-large;
   text-align: center;
 }
 
-.Q1 {
+.Q {
   font-size: 75%;
-  background-color: #1d920e;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -47,4 +54,49 @@ body {
 
 ul {
   list-style-type: none;
+}
+ul :hover {
+  color: rgb(60, 50, 191);
+}
+
+#next-Btn{
+  font-size: 75%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2%;
+  border-radius: 75px;
+  border-color: rgb(182, 21, 163);
+  border-style: solid;
+  border-width: 5px;
+  font-weight: bolder;
+}
+#begin-Btn{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 2%;
+  border-radius: 75px;
+  border-color: rgb(182, 21, 163);
+  border-style: solid;
+  border-width: 5px;
+  font-weight: bolder;
+}
+#next-Btn:hover{
+  color: rgb(60, 50, 191);
+}
+#begin-Btn:hover{
+  color: rgb(60, 50, 191);
+}
+
+.hide{
+  display: none;
 }

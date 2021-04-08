@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles.css" />
     <title>Quiz1</title>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </head>
   <body>
-    <div>
     
-    </div>
-    <div class="container">
+    <div id="containerQ" class="hide">
       <h1 id="questionWordId">Question1:</h1>
       <p id="theQuestionId">What is Julian's favorite color?</p>
       <ul id="answer1">
-        <button class ="Q1"><li>Blue</li></button>
-        <button class ="Q1"><li>Red</li></button>
-        <button class ="Q1"><li>Green</li></button>
-        <button class ="Q1"><li>Yellow</li></button>
+        <button class="Q"><li>Blue</li></button>
+        <button class="Q"><li>Red</li></button>
+        <button class="Q"><li>Green</li></button>
+        <button class="Q"><li>Yellow</li></button>
       </ul>
+      <button id="next-Btn">SKIP/NEXT QUESTION</button>
     </div>
-
-    <script src="./assets/javascript.js"></script>
+    
+    <div class= "controls">
+    <button id="begin-Btn" >BEGIN</button>
+  </div>
+  <script src="./assets/javascript.js"></script>
   </body>
 </html>
